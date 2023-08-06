@@ -1,0 +1,62 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #413c3c;
+    color: #ff7300;
+}
+
+/* Styles the header */
+header {
+    display: flex; /* Use Flexbox to arrange items in a row */
+    align-items: center; /* Vertically center the items in the header */
+    background-color: #000000;
+    color: #ff7300;
+    padding: 10px;
+    border-radius: 15px; /* round corners to the header */
+}
+
+/* Styles the main heading */
+h1 {
+    margin: .80em; /* Adjust the margin around the heading */
+}
+
+/* Styles the unordered list in the main section */
+main ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Styles the list items in the main section */
+main li {
+    display: inline-block; /* Displays the list items in a row */
+    margin-right: 15px; /* Add some spacing between list items */
+}
+
+/* Styles the links in the main section */
+main a {
+    color: #ff7300; /* Set the link color to orange */
+    text-decoration: none;
+}
+
+/* Styles the book sections */
+section.book {
+    padding: 20px;
+    border-bottom: 1px solid #000000;
+    background-color: #dfdede;
+}
+
+/* Styles the images */
+.book img {
+    max-width: 200px;
+    margin-right: 20px;
+    float: left; /* Floats the images to the left */
+    border: #ff7300 solid 5px; /* Add an orange border to the images */
+}
+
+/* Styles the book information headings */
+.book-info h2 {
+    margin-top: 1em; /* Add spacing above the headings */
+}
